@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background: url(https://images.unsplash.com/photo-1581447109200-bf2769116351?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHN0dWR5JTIwYWVzdGhldGljfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat center center/cover;
+
+    padding: 20px 40px
+}
+.container{
+    max-width: 550px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.header{
+    font-size: 1.2rem;
+    border: solid 2px white;
+    color:white;
+    background-color: black;
+    padding: 5px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+    flex-basis: 10%;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    padding: 50px 40px;
+    box-shadow: 0 0 10px;
+    flex-basis: 90%;
+    position: relative;
+
+}
+
+.main-content .text-area{
+    font-size: 1.5rem;
+    line-height: 1.;
+}
+
+.main-content .person{
+    font-size: 1.6rem;
+    color: red;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.button-area button{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.button-area button:active{
+    background-color: lightblue;
+}
+
+@media (max-width){
+    .main-content .text-area{
+        font-size: 0.9rem;
+        line-height: 1.;
+    }
+    
+
+}
